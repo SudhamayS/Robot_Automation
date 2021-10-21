@@ -14,7 +14,7 @@ pipeline
             {
                 script
                 {
-                    if (param.Branch = 'Feature_1')
+                    if (param.Branch == 'Feature_1')
                     {
                         echo 'Testing application Feature_1.....'                 
                     }
