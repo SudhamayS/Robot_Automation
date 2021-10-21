@@ -20,7 +20,7 @@ pipeline
                     }
                     else
                     {
-                        echo 'Testing application ${params.Branch}..........'
+                        echo "Testing application ${params.Branch}.........."
                     }                
                 }
             } 
