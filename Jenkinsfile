@@ -14,13 +14,13 @@ pipeline
             {
                 script
                 {
-                    if (param.Branch == 'Feature_1')
+                    if (params.Branch == 'Feature_1')
                     {
                         echo 'Testing application Feature_1.....'                 
                     }
                     else
                     {
-                        echo 'Testing application ${Param.Branch}..........'
+                        echo 'Testing application ${params.Branch}..........'
                     }                
                 }
             } 
